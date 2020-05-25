@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko" >
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>game</title>
+<meta name="robots" content="all" />
+<link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
+<style type="text/css">
+
+body{margin:20px}
+.navercast{border:1px solid black; width:593px; letter-spacing:-1px}
+.cast_menu {background-color: #999; height:45px}
+.cast_car {padding:15px 30px 0px 29px;}
+.car_hot{float:left; width:255px; margin-bottom:19px}
+.car_etc {float:right; width:254px}
+.car_etc > li {float:left; }
+.car_etc > li+li {margin-top: 12px}
+.car_etc > li > a > * {display:block}
+.car_etc > li > a > img {float:left; margin-right:13px}
+.car_etc > li::after {content:''; clear:both;display:block}
+.car_etc > li > a > strong {color:black; margin: 0 0 7px}
+.car_etc > li > a > span {font-size:11px}
+
+.tech_news {clear:both;}
+.tech_news > h3 {display:inline-block; margin-bottom:9px;}
+.tech_news > ul {overflow:hidden;margin-bottom:35px}
+.tech_news > ul > li {width:120px; float:left}
+.tech_news > ul > li+li {margin-left:18px}
+.tech_news > ul > li > a >  img {width:120px; height:80px}
+.tech_news > ul > li > a >  * {display:block;}
+.tech_news > ul > li > a > strong {color:black; margin: 0 0 7px; padding-top:17px}
+.tech_news > ul > li > a > span {font-size:11px}
+
+.cast_moreview {clear:both; overflow:hidden; margin-bottom: 8px}
+.cast_moreview > h3 {float:left; display:inline-block; clear: both;}
+.cast_moreview > h3 > a {}
+.cast_moreview > ul > * {float:left; margin-left:11px}
+.cast_moreview > ul > li+li {margin-left:7px; padding-left:7px; border-left:1px solid grey}
+
+.cast_setting {padding: 0 30px 10px 29px;clear:both; overflow:hidden; position:relative}
+.cast_setting > a {float:left}
+.cast_setting > a > span {
+    background:url('images/set.gif') no-repeat left center;
+    padding:3px 0 2px 23px;
+    display: block;
+    }
+
+    /* span이 인라인 성질을 가지고 있어서 padding을 주면서 위치를 센터로 잡아도 overflow hidden을 주니까 선 밖으로 있는 것이 짤려 버린 것이었음. 이럴때는 블록 성질로 바꿔주면 된다.  */
+
+.cast_setting > .page > a {position: absolute; right:15px;}
+.cast_setting > .page > span {position:absolute; top:3px ;right:65px; font-size: 11px; font-weight:bold;}
+
+
+
+
+</style>
+</head>
+<body>
+<div class="navercast">
+    <div class="cast_menu"></div>
+    <div class="cast_car">
+        <div class="car_hot"><a href=""><img src="images/lastest.jpg"></a></div>
+        <ul class="car_etc">
+            <li>
+                <a href="">
+                    <img src="images/mat_19840125c.jpg">
+                    <strong>'카니발'을 잡아야 한다 </strong>
+                    <span>  국내외 미니밴들의 쟁쟁한 경쟁기 
+                            기아,쌍용 vs 혼다, 토요타의 대결도</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="images/mat_19840125c.jpg">
+                    <strong>'카니발'을 잡아야 한다 </strong>
+                    <span>  국내외 미니밴들의 쟁쟁한 경쟁기 
+                            기아,쌍용 vs 혼다, 토요타의 대결도</span>
+                </a>
+            </li>  
+            <li>
+                <a href="">
+                    <img src="images/mat_19840125c.jpg">
+                    <strong>'카니발'을 잡아야 한다</strong>
+                    <span>  국내외 미니밴들의 쟁쟁한 경쟁기 
+                            기아,쌍용 vs 혼다, 토요타의 대결도</span>
+                </a>
+            </li>
+        </ul>
+   
+
+
+        <div class="tech_news">
+            <h3><a href=""><img src="images/h3_tech_news.jpg" alt="테크 및 아이티소식"></a></h3>
+            <ul>
+                <li>
+                    <a href="">
+                        <img src="images/mat_14051132t.jpg">
+                        <strong>우주선? 사무실?</strong>
+                        <span>4대 IT 업체 신사옥 '황홀'
+                            '첨단 건물'로도 경쟁하나</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="images/mat_14051132t.jpg">
+                        <strong>우주선? 사무실?</strong>
+                        <span>4대 IT 업체 신사옥 '황홀'
+                            '첨단 건물'로도 경쟁하나</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="images/mat_14051132t.jpg">
+                        <strong>우주선? 사무실?</strong>
+                        <span>4대 IT 업체 신사옥 '황홀'
+                            '첨단 건물'로도 경쟁하나</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="images/mat_14051132t.jpg">
+                        <strong>우주선? 사무실?</strong>
+                        <span>4대 IT 업체 신사옥 '황홀'
+                            '첨단 건물'로도 경쟁하나</span>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="cast_moreview">
+                <h3><a href=""><img src="images/cast_moreview.png" alt="주제별 더보기"></a></h3>
+                <ul>
+                    <li><a href="">자동차 홈</a></li>
+                    <li><a href="">모델 비교</a></li>
+                    <li><a href="">자동차 뉴스</a></li>
+                    <li><a href="">테크</a></li>
+                    <li><a href="">IT 뉴스</a></li>
+                    <li><a href="">앱스토어</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="cast_setting">
+            <a class="choice" href="">
+                <span> 선호별주제설정</span>
+            </a>
+
+            <div class="page">
+                <span>10/13</span>
+                <a href="" class="prev"><img src="images/page.gif" alt="이전다음"/></a>
+            </div>
+
+</div>
+
+
+<!-- <img src="./navercast_car.jpg" style="position: absolute; top:20px; left:20px; opacity:0.5; border:1px solid red" /> -->
+</body>
+</html>
+
+
+
+
+
+
